@@ -1,0 +1,12 @@
+name = "rekber"
+main = ".open-next\\worker.js"
+compatibility_date = "2026-02-22"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next\\assets"
+
+[observability]
+enabled = true
+[env.production]
+vars = { NEXT_PUBLIC_API_URL = "https://api.rekber.com", NEXTAUTH_SECRET = "xH59+fGmAo6nKkPzGp2BzRVH4QW9Nk2OY5LkK8DJ5kI=" }

@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /dashboard/*
+Disallow: /auth/*
+Disallow: /api/*
+Disallow: /admin/*
+Disallow: /_next/*
+Disallow: /private/*
+
+# Host
+Host: https://www.rekber.com
+
+# Sitemaps
+Sitemap: https://www.rekber.com/sitemap.xml

@@ -1,0 +1,202 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/auth/[...nextauth]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPnextauth": "nxtPnextauth"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/transactions/[id]",
+      "regex": "^/dashboard/transactions/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/dashboard/transactions/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/auth/activate",
+      "regex": "^/auth/activate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/activate(?:/)?$"
+    },
+    {
+      "page": "/auth/forgot-password",
+      "regex": "^/auth/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/register",
+      "regex": "^/auth/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/register(?:/)?$"
+    },
+    {
+      "page": "/cara-kerja",
+      "regex": "^/cara\\-kerja(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cara\\-kerja(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/profile",
+      "regex": "^/dashboard/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/profile(?:/)?$"
+    },
+    {
+      "page": "/dashboard/salinrekber",
+      "regex": "^/dashboard/salinrekber(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/salinrekber(?:/)?$"
+    },
+    {
+      "page": "/dashboard/transactions",
+      "regex": "^/dashboard/transactions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/transactions(?:/)?$"
+    },
+    {
+      "page": "/dashboard/verifikasi",
+      "regex": "^/dashboard/verifikasi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/verifikasi(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/fee",
+      "regex": "^/fee(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fee(?:/)?$"
+    },
+    {
+      "page": "/formrekber",
+      "regex": "^/formrekber(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/formrekber(?:/)?$"
+    },
+    {
+      "page": "/hubungi-kami",
+      "regex": "^/hubungi\\-kami(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hubungi\\-kami(?:/)?$"
+    },
+    {
+      "page": "/kebijakan-privasi",
+      "regex": "^/kebijakan\\-privasi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kebijakan\\-privasi(?:/)?$"
+    },
+    {
+      "page": "/kebijakan-refund",
+      "regex": "^/kebijakan\\-refund(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kebijakan\\-refund(?:/)?$"
+    },
+    {
+      "page": "/laporkan-masalah",
+      "regex": "^/laporkan\\-masalah(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/laporkan\\-masalah(?:/)?$"
+    },
+    {
+      "page": "/rekber-account-identity",
+      "regex": "^/rekber\\-account\\-identity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rekber\\-account\\-identity(?:/)?$"
+    },
+    {
+      "page": "/reset-password",
+      "regex": "^/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/syarat-dan-ketentuan",
+      "regex": "^/syarat\\-dan\\-ketentuan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/syarat\\-dan\\-ketentuan(?:/)?$"
+    },
+    {
+      "page": "/tentang-kami",
+      "regex": "^/tentang\\-kami(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tentang\\-kami(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

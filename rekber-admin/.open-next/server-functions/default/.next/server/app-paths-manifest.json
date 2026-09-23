@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/dashboard/transactions/[id]/page": "app/dashboard/transactions/[id]/page.js",
+  "/dashboard/chat/page": "app/dashboard/chat/page.js",
+  "/dashboard/payments/page": "app/dashboard/payments/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/transactions/dashboard/page": "app/dashboard/transactions/dashboard/page.js",
+  "/dashboard/users/page": "app/dashboard/users/page.js",
+  "/dashboard/payments/[id]/page": "app/dashboard/payments/[id]/page.js",
+  "/dashboard/transactions/page": "app/dashboard/transactions/page.js",
+  "/dashboard/users/[id]/page": "app/dashboard/users/[id]/page.js",
+  "/dashboard/transactions/unpaid/page": "app/dashboard/transactions/unpaid/page.js",
+  "/dashboard/vouchers/page": "app/dashboard/vouchers/page.js"
+}

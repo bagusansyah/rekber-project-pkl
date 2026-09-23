@@ -1,0 +1,30 @@
+import {
+  FileText,
+  Shield,
+  ShieldCheck,
+  Users,
+  Scale,
+  AlertTriangle,
+  Eye,
+  Lock,
+  Mail,
+  Clock,
+  Ban,
+  CheckCircle,
+  type LucideIcon,
+} from "lucide-react"
+
+export const STATIC_PAGE_ICONS: Record<string, LucideIcon> = {
+  FileText,
+  Shield,
+  ShieldCheck,
+  Users,
+  Scale,
+  AlertTriangle,
+  Eye,
+  Lock,
+  Mail,
+  Clock,
+  Ban,
+  CheckCircle,
+}

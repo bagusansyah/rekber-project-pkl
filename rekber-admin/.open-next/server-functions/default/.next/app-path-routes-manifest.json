@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/page": "/",
+  "/dashboard/transactions/[id]/page": "/dashboard/transactions/[id]",
+  "/dashboard/chat/page": "/dashboard/chat",
+  "/dashboard/payments/page": "/dashboard/payments",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/transactions/dashboard/page": "/dashboard/transactions/dashboard",
+  "/dashboard/users/page": "/dashboard/users",
+  "/dashboard/payments/[id]/page": "/dashboard/payments/[id]",
+  "/dashboard/transactions/page": "/dashboard/transactions",
+  "/dashboard/users/[id]/page": "/dashboard/users/[id]",
+  "/dashboard/transactions/unpaid/page": "/dashboard/transactions/unpaid",
+  "/dashboard/vouchers/page": "/dashboard/vouchers"
+}
